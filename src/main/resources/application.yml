@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 38-SB-Configserver-21
+     
+   
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Tiwari6203332535/Application-properties.yml.git
+          clone-on-start: true
+         
